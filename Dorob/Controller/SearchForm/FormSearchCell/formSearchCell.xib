@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="91" id="KGk-i7-Jjw" customClass="formSearchCell" customModule="Dorob" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="459" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noun_Location_2017554" translatesAutoresizingMaskIntoConstraints="NO" id="snM-Kr-wYA">
+                        <rect key="frame" x="16" y="37" width="27" height="16.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="27" id="E4G-Gm-DJZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86Y-dM-Z5A">
+                        <rect key="frame" x="59" y="34.5" width="392" height="21"/>
+                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="86Y-dM-Z5A" secondAttribute="trailing" constant="8" id="5Ch-Ui-IhZ"/>
+                    <constraint firstItem="snM-Kr-wYA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="QTV-L8-37k"/>
+                    <constraint firstItem="snM-Kr-wYA" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="VbN-CH-2Tx"/>
+                    <constraint firstItem="86Y-dM-Z5A" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="XRO-2z-sBA"/>
+                    <constraint firstItem="86Y-dM-Z5A" firstAttribute="leading" secondItem="snM-Kr-wYA" secondAttribute="trailing" constant="16" id="Zog-4k-sat"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cityName" destination="86Y-dM-Z5A" id="QQx-PW-Ith"/>
+                <outlet property="imageNamed" destination="snM-Kr-wYA" id="uqe-6U-squ"/>
+            </connections>
+            <point key="canvasLocation" x="232.60869565217394" y="168.75"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="noun_Location_2017554" width="14" height="16.5"/>
+    </resources>
+</document>
