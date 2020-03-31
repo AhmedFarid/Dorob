@@ -136,6 +136,9 @@ came down on his way to the Battle of Tabuk, and identified a</string>
                                                     <real key="value" value="1"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="contiueBTN:" destination="-1" eventType="touchUpInside" id="Mf4-fi-DxD"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

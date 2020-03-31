@@ -47,4 +47,49 @@ class searchGuideApi: NSObject {
             }
         }
     }
+    
+    class func orderGuid(guide_id: Int,email: String,name: String,phone: String,message: String,completion: @escaping(_ error: Error?,_ success: Bool,_ msge: Message?)-> Void){
+           
+//           guard let user_token = helperLogin.getAPIToken() else {
+//               completion(nil, false,nil)
+//               return
+//           }
+           
+           let parametars = [
+               "guide_id": guide_id,
+               "email": email,
+               "name": name,
+               "phone": phone,
+               "message": message
+            ] as [String : Any]
+           
+           let headers: HTTPHeaders = [
+               "X-localization": "en"
+           ]
+           
+           let url = URLs.orderGuide
+           print(url)
+           print(parametars)
+           
+           AF.request(url, method: .post, parameters: parametars, encoding: URLEncoding.queryString, headers: headers).responseJSON{ (response) in
+               switch response.result
+               {
+               case .failure(let error):
+                   completion(error, false,nil)
+                   print(error)
+               case .success:
+                   do{
+                       print(response)
+                       let msge = try JSONDecoder().decode(Message.self, from: response.data!)
+                       if msge.success == false {
+                           completion(nil,true,msge)
+                       }else {
+                           completion(nil,true,msge)
+                       }
+                   }catch{
+                       print("error")
+                   }
+               }
+           }
+       }
 }

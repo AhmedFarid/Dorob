@@ -23,6 +23,13 @@
 		693543D22433547E0040DA55 /* coustomRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543D12433547E0040DA55 /* coustomRoundedView.swift */; };
 		693543D5243368300040DA55 /* orderGuidVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543D3243368300040DA55 /* orderGuidVC.swift */; };
 		693543D6243368300040DA55 /* orderGuidVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693543D4243368300040DA55 /* orderGuidVC.xib */; };
+		693543D924337E1D0040DA55 /* message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543D824337E1D0040DA55 /* message.swift */; };
+		693543DB24339CDF0040DA55 /* packages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543DA24339CDF0040DA55 /* packages.swift */; };
+		693543DD24339DE90040DA55 /* packagesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543DC24339DE90040DA55 /* packagesAPI.swift */; };
+		693543E12433A0AE0040DA55 /* searchPackagesResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543DF2433A0AE0040DA55 /* searchPackagesResultVC.swift */; };
+		693543E22433A0AE0040DA55 /* searchPackagesResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693543E02433A0AE0040DA55 /* searchPackagesResultVC.xib */; };
+		693543E62433A0FA0040DA55 /* searchPackagesResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543E42433A0FA0040DA55 /* searchPackagesResultCell.swift */; };
+		693543E72433A0FA0040DA55 /* searchPackagesResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693543E52433A0FA0040DA55 /* searchPackagesResultCell.xib */; };
 		69680C4D2419430700E144A1 /* myTripsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69680C4B2419430700E144A1 /* myTripsVC.swift */; };
 		69680C4E2419430700E144A1 /* myTripsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69680C4C2419430700E144A1 /* myTripsVC.xib */; };
 		69680C522419432300E144A1 /* moreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69680C502419432300E144A1 /* moreVC.swift */; };
@@ -90,6 +97,13 @@
 		693543D12433547E0040DA55 /* coustomRoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coustomRoundedView.swift; sourceTree = "<group>"; };
 		693543D3243368300040DA55 /* orderGuidVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderGuidVC.swift; sourceTree = "<group>"; };
 		693543D4243368300040DA55 /* orderGuidVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = orderGuidVC.xib; sourceTree = "<group>"; };
+		693543D824337E1D0040DA55 /* message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message.swift; sourceTree = "<group>"; };
+		693543DA24339CDF0040DA55 /* packages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packages.swift; sourceTree = "<group>"; };
+		693543DC24339DE90040DA55 /* packagesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packagesAPI.swift; sourceTree = "<group>"; };
+		693543DF2433A0AE0040DA55 /* searchPackagesResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPackagesResultVC.swift; sourceTree = "<group>"; };
+		693543E02433A0AE0040DA55 /* searchPackagesResultVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchPackagesResultVC.xib; sourceTree = "<group>"; };
+		693543E42433A0FA0040DA55 /* searchPackagesResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPackagesResultCell.swift; sourceTree = "<group>"; };
+		693543E52433A0FA0040DA55 /* searchPackagesResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchPackagesResultCell.xib; sourceTree = "<group>"; };
 		69680C4B2419430700E144A1 /* myTripsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTripsVC.swift; sourceTree = "<group>"; };
 		69680C4C2419430700E144A1 /* myTripsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myTripsVC.xib; sourceTree = "<group>"; };
 		69680C502419432300E144A1 /* moreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreVC.swift; sourceTree = "<group>"; };
@@ -270,6 +284,25 @@
 			path = orderGuide;
 			sourceTree = "<group>";
 		};
+		693543DE2433A07C0040DA55 /* searchPackagesResult */ = {
+			isa = PBXGroup;
+			children = (
+				693543E32433A0C70040DA55 /* searchPackagesResultCell */,
+				693543DF2433A0AE0040DA55 /* searchPackagesResultVC.swift */,
+				693543E02433A0AE0040DA55 /* searchPackagesResultVC.xib */,
+			);
+			path = searchPackagesResult;
+			sourceTree = "<group>";
+		};
+		693543E32433A0C70040DA55 /* searchPackagesResultCell */ = {
+			isa = PBXGroup;
+			children = (
+				693543E42433A0FA0040DA55 /* searchPackagesResultCell.swift */,
+				693543E52433A0FA0040DA55 /* searchPackagesResultCell.xib */,
+			);
+			path = searchPackagesResultCell;
+			sourceTree = "<group>";
+		};
 		69680C4A241942EE00E144A1 /* My Trips */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,6 +400,7 @@
 				69992E53242CC7EC00F99155 /* citiesAPI.swift */,
 				69992E60242CE0F000F99155 /* categoriesAPI.swift */,
 				69F79A8B24321D490025A70B /* searchGuideApi.swift */,
+				693543DC24339DE90040DA55 /* packagesAPI.swift */,
 			);
 			path = "API Service";
 			sourceTree = "<group>";
@@ -376,6 +410,8 @@
 			children = (
 				69992E51242CC74600F99155 /* cities.swift */,
 				69F79A8924321D080025A70B /* guide.swift */,
+				693543D824337E1D0040DA55 /* message.swift */,
+				693543DA24339CDF0040DA55 /* packages.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -410,6 +446,7 @@
 		69B9837C241929C3003B5AD7 /* SearchPackages */ = {
 			isa = PBXGroup;
 			children = (
+				693543DE2433A07C0040DA55 /* searchPackagesResult */,
 				69B9837F24192A25003B5AD7 /* searchPackagesVC.swift */,
 				69B9838024192A25003B5AD7 /* searchPackagesVC.xib */,
 			);
@@ -553,10 +590,12 @@
 				6908CD1C2417A1C4001754B5 /* Main.storyboard in Resources */,
 				69964EF62417BA4C00974686 /* SFUIText-Semibold.ttf in Resources */,
 				69E100F42417CA9100684662 /* profileVC.xib in Resources */,
+				693543E22433A0AE0040DA55 /* searchPackagesResultVC.xib in Resources */,
 				693543D0243353560040DA55 /* searchGuidDitelesVC.xib in Resources */,
 				69F79A96243220F00025A70B /* searchResultsCell.xib in Resources */,
 				6908CD342417A628001754B5 /* splachCell.xib in Resources */,
 				69680C4E2419430700E144A1 /* myTripsVC.xib in Resources */,
+				693543E72433A0FA0040DA55 /* searchPackagesResultCell.xib in Resources */,
 				69E100EF2417C96B00684662 /* homeVC.xib in Resources */,
 				69E100F92417CE3600684662 /* searchGuidVC.xib in Resources */,
 				69964EF42417BA4C00974686 /* SFUIText-LightItalic.ttf in Resources */,
@@ -623,10 +662,13 @@
 				69992E54242CC7EC00F99155 /* citiesAPI.swift in Sources */,
 				6908CD192417A1C4001754B5 /* ViewController.swift in Sources */,
 				6908CD152417A1C4001754B5 /* AppDelegate.swift in Sources */,
+				693543E12433A0AE0040DA55 /* searchPackagesResultVC.swift in Sources */,
 				693543D5243368300040DA55 /* orderGuidVC.swift in Sources */,
 				69680C522419432300E144A1 /* moreVC.swift in Sources */,
 				69680C4D2419430700E144A1 /* myTripsVC.swift in Sources */,
 				693543CF243353560040DA55 /* searchGuidDitelesVC.swift in Sources */,
+				693543DD24339DE90040DA55 /* packagesAPI.swift in Sources */,
+				693543DB24339CDF0040DA55 /* packages.swift in Sources */,
 				69964EDF2417B6CF00974686 /* loginVC.swift in Sources */,
 				693543D22433547E0040DA55 /* coustomRoundedView.swift in Sources */,
 				69992E5C242CCBFF00F99155 /* formSearchCell.swift in Sources */,
@@ -640,8 +682,10 @@
 				69E100F32417CA9100684662 /* profileVC.swift in Sources */,
 				69992E52242CC74600F99155 /* cities.swift in Sources */,
 				6908CD332417A628001754B5 /* splachCell.swift in Sources */,
+				693543D924337E1D0040DA55 /* message.swift in Sources */,
 				69E100EE2417C96B00684662 /* homeVC.swift in Sources */,
 				6908CD172417A1C4001754B5 /* SceneDelegate.swift in Sources */,
+				693543E62433A0FA0040DA55 /* searchPackagesResultCell.swift in Sources */,
 				69F79A95243220F00025A70B /* searchResultsCell.swift in Sources */,
 				69B9837B24191D00003B5AD7 /* textimage.swift in Sources */,
 				69992E50242CC6C400F99155 /* config.swift in Sources */,

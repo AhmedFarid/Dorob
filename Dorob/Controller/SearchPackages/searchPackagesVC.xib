@@ -78,6 +78,9 @@
                                                     <real key="value" value="1"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="seaarchBTN:" destination="-1" eventType="touchUpInside" id="kIk-Ho-1oG"/>
+                                            </connections>
                                         </button>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t9M-a3-Sn5">
                                             <rect key="frame" x="16" y="106" width="350" height="35"/>

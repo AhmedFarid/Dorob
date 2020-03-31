@@ -22,7 +22,9 @@ class searchPackagesVC: UIViewController {
     
     var singelItem: citiesData?
     var priceRange = ["Below 500$","500$ - 1000$","1000$ - 1500$","Above 1500$"]
-    var priceID = ""
+    var priceID = 0
+    var singelItemCity: citiesData?
+    var singelItemCategory: citiesData?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -64,6 +66,16 @@ class searchPackagesVC: UIViewController {
             priceRage.withImage(direction: .Left, image: myImage, colorSeparator: UIColor.clear, colorBorder: UIColor.clear)
         }
     }
+    
+    
+    @IBAction func seaarchBTN(_ sender: Any) {
+        let vc = searchPackagesResultVC(nibName: "searchPackagesResultVC", bundle: nil)
+        vc.singelItemCity = singelItemCity
+        vc.singelItemCategory = singelItemCategory
+        vc.priceID = priceID
+        self.navigationController!.pushViewController(vc, animated: true)
+    }
+    
 }
  
 extension searchPackagesVC: UIScrollViewDelegate {
@@ -107,8 +119,10 @@ extension searchPackagesVC: searchDeleget{
         singelItem = city
         if Url == URLs.cities {
             self.city.text = singelItem?.name ?? ""
+            singelItemCity = singelItem
         }else if Url == URLs.categories {
             self.cateGoury.text = singelItem?.name ?? ""
+            singelItemCategory = singelItem
         }
     }
 }
@@ -129,16 +143,16 @@ extension searchPackagesVC: UIPickerViewDelegate, UIPickerViewDataSource {
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         priceRage.text = priceRange[row]
         if priceRange[row] == "Below 500$"{
-            priceID = "1"
+            priceID = 1
             print(priceID)
         }else if priceRange[row] == "500$ - 1000$" {
-            priceID = "2"
+            priceID = 2
             print(priceID)
         }else if priceRange[row] == "1000$ - 1500$"{
-            priceID = "3"
+            priceID = 3
             print(priceID)
         }else if priceRange[row] == "Above 1500$" {
-            priceID = "4"
+            priceID = 4
             print(priceID)
         }
     }

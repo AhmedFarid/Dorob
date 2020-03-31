@@ -37,6 +37,11 @@ class searchGuidDitelesVC: UIViewController {
     }
     
     
+    @IBAction func contiueBTN(_ sender: Any) {
+        let vc = orderGuidVC(nibName: "orderGuidVC", bundle: nil)
+        vc.singlItem = singlItem
+        self.navigationController!.pushViewController(vc, animated: true)
+    }
     
     
     func SetUpData() {
