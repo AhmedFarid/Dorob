@@ -4,12 +4,12 @@
 target 'Dorob' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  
   # Pods for Dorob
-	pod 'Alamofire'
-	pod 'Kingfisher'
-  	pod 'IQKeyboardManagerSwift'
-  	pod 'MOLH'
-  	pod 'NVActivityIndicatorView'
-
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'IQKeyboardManagerSwift'
+  pod 'MOLH'
+  pod 'NVActivityIndicatorView'
+  
 end

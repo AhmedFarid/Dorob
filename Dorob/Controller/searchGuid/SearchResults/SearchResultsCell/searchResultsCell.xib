@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIText-Regular.ttf">
+            <string>SFUIText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="159" id="KGk-i7-Jjw" customClass="searchResultsCell" customModule="Dorob" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="156"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="156"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEW-1Y-ofu" customClass="coustomRoundedView" customModule="Dorob" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="156"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="59i-ge-KI3">
+                                <rect key="frame" x="8" y="8" width="140" height="140"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="aDP-Dz-49l">
+                                <rect key="frame" x="156" y="44" width="236" height="68.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKm-A7-Z5d">
+                                        <rect key="frame" x="0.0" y="0.0" width="236" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="huj-Gw-VWI">
+                                        <rect key="frame" x="0.0" y="28.5" width="236" height="16"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="13"/>
+                                        <color key="textColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRA-eN-Plm">
+                                        <rect key="frame" x="0.0" y="52.5" width="236" height="16"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="13"/>
+                                        <color key="textColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="59i-ge-KI3" firstAttribute="width" secondItem="lEW-1Y-ofu" secondAttribute="width" multiplier="0.35" id="447-aR-e0D"/>
+                            <constraint firstItem="aDP-Dz-49l" firstAttribute="leading" secondItem="59i-ge-KI3" secondAttribute="trailing" constant="8" id="5xQ-gT-uQ6"/>
+                            <constraint firstItem="59i-ge-KI3" firstAttribute="top" secondItem="lEW-1Y-ofu" secondAttribute="top" constant="8" id="CBe-5l-WEK"/>
+                            <constraint firstItem="59i-ge-KI3" firstAttribute="leading" secondItem="lEW-1Y-ofu" secondAttribute="leading" constant="8" id="CJw-b0-EnI"/>
+                            <constraint firstItem="aDP-Dz-49l" firstAttribute="centerY" secondItem="59i-ge-KI3" secondAttribute="centerY" id="D6T-hE-dIT"/>
+                            <constraint firstAttribute="bottom" secondItem="59i-ge-KI3" secondAttribute="bottom" constant="8" id="oR7-Eb-7eL"/>
+                            <constraint firstAttribute="trailing" secondItem="aDP-Dz-49l" secondAttribute="trailing" constant="8" id="qfn-8Y-gGk"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuscostom">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.74382885856807501" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="lEW-1Y-ofu" secondAttribute="bottom" id="ONT-4q-8lb"/>
+                    <constraint firstItem="lEW-1Y-ofu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hlf-6x-3ZZ"/>
+                    <constraint firstItem="lEW-1Y-ofu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ose-AG-gKQ"/>
+                    <constraint firstAttribute="trailing" secondItem="lEW-1Y-ofu" secondAttribute="trailing" id="zkf-87-UCr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="city" destination="huj-Gw-VWI" id="i0p-kV-tu0"/>
+                <outlet property="guidImage" destination="59i-ge-KI3" id="nBa-GZ-nvq"/>
+                <outlet property="name" destination="aKm-A7-Z5d" id="DWw-v0-ZLw"/>
+                <outlet property="phone" destination="tRA-eN-Plm" id="INc-uK-Fk4"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="150.66964285714286"/>
+        </tableViewCell>
+    </objects>
+</document>

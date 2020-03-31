@@ -18,6 +18,11 @@
 		6908CD2D2417A590001754B5 /* splchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6908CD2B2417A590001754B5 /* splchVC.xib */; };
 		6908CD332417A628001754B5 /* splachCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6908CD312417A628001754B5 /* splachCell.swift */; };
 		6908CD342417A628001754B5 /* splachCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6908CD322417A628001754B5 /* splachCell.xib */; };
+		693543CF243353560040DA55 /* searchGuidDitelesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543CD243353560040DA55 /* searchGuidDitelesVC.swift */; };
+		693543D0243353560040DA55 /* searchGuidDitelesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693543CE243353560040DA55 /* searchGuidDitelesVC.xib */; };
+		693543D22433547E0040DA55 /* coustomRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543D12433547E0040DA55 /* coustomRoundedView.swift */; };
+		693543D5243368300040DA55 /* orderGuidVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543D3243368300040DA55 /* orderGuidVC.swift */; };
+		693543D6243368300040DA55 /* orderGuidVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693543D4243368300040DA55 /* orderGuidVC.xib */; };
 		69680C4D2419430700E144A1 /* myTripsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69680C4B2419430700E144A1 /* myTripsVC.swift */; };
 		69680C4E2419430700E144A1 /* myTripsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69680C4C2419430700E144A1 /* myTripsVC.xib */; };
 		69680C522419432300E144A1 /* moreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69680C502419432300E144A1 /* moreVC.swift */; };
@@ -59,6 +64,12 @@
 		69E100F42417CA9100684662 /* profileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69E100F22417CA9100684662 /* profileVC.xib */; };
 		69E100F82417CE3600684662 /* searchGuidVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E100F62417CE3600684662 /* searchGuidVC.swift */; };
 		69E100F92417CE3600684662 /* searchGuidVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69E100F72417CE3600684662 /* searchGuidVC.xib */; };
+		69F79A8A24321D080025A70B /* guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F79A8924321D080025A70B /* guide.swift */; };
+		69F79A8C24321D490025A70B /* searchGuideApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F79A8B24321D490025A70B /* searchGuideApi.swift */; };
+		69F79A90243220CB0025A70B /* searchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F79A8E243220CB0025A70B /* searchResultsVC.swift */; };
+		69F79A91243220CB0025A70B /* searchResultsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F79A8F243220CB0025A70B /* searchResultsVC.xib */; };
+		69F79A95243220F00025A70B /* searchResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F79A93243220F00025A70B /* searchResultsCell.swift */; };
+		69F79A96243220F00025A70B /* searchResultsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F79A94243220F00025A70B /* searchResultsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +85,11 @@
 		6908CD2B2417A590001754B5 /* splchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = splchVC.xib; sourceTree = "<group>"; };
 		6908CD312417A628001754B5 /* splachCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splachCell.swift; sourceTree = "<group>"; };
 		6908CD322417A628001754B5 /* splachCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = splachCell.xib; sourceTree = "<group>"; };
+		693543CD243353560040DA55 /* searchGuidDitelesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchGuidDitelesVC.swift; sourceTree = "<group>"; };
+		693543CE243353560040DA55 /* searchGuidDitelesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchGuidDitelesVC.xib; sourceTree = "<group>"; };
+		693543D12433547E0040DA55 /* coustomRoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coustomRoundedView.swift; sourceTree = "<group>"; };
+		693543D3243368300040DA55 /* orderGuidVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderGuidVC.swift; sourceTree = "<group>"; };
+		693543D4243368300040DA55 /* orderGuidVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = orderGuidVC.xib; sourceTree = "<group>"; };
 		69680C4B2419430700E144A1 /* myTripsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTripsVC.swift; sourceTree = "<group>"; };
 		69680C4C2419430700E144A1 /* myTripsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myTripsVC.xib; sourceTree = "<group>"; };
 		69680C502419432300E144A1 /* moreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreVC.swift; sourceTree = "<group>"; };
@@ -115,6 +131,12 @@
 		69E100F22417CA9100684662 /* profileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = profileVC.xib; sourceTree = "<group>"; };
 		69E100F62417CE3600684662 /* searchGuidVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchGuidVC.swift; sourceTree = "<group>"; };
 		69E100F72417CE3600684662 /* searchGuidVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchGuidVC.xib; sourceTree = "<group>"; };
+		69F79A8924321D080025A70B /* guide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guide.swift; sourceTree = "<group>"; };
+		69F79A8B24321D490025A70B /* searchGuideApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchGuideApi.swift; sourceTree = "<group>"; };
+		69F79A8E243220CB0025A70B /* searchResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultsVC.swift; sourceTree = "<group>"; };
+		69F79A8F243220CB0025A70B /* searchResultsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchResultsVC.xib; sourceTree = "<group>"; };
+		69F79A93243220F00025A70B /* searchResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultsCell.swift; sourceTree = "<group>"; };
+		69F79A94243220F00025A70B /* searchResultsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchResultsCell.xib; sourceTree = "<group>"; };
 		85FF1990F1DBCB305E56A4FB /* Pods_Dorob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dorob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B99FFE884F82B278C24A485 /* Pods-Dorob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dorob.debug.xcconfig"; path = "Target Support Files/Pods-Dorob/Pods-Dorob.debug.xcconfig"; sourceTree = "<group>"; };
 		FBD13CEFE5619F7A6C591402 /* Pods-Dorob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dorob.release.xcconfig"; path = "Target Support Files/Pods-Dorob/Pods-Dorob.release.xcconfig"; sourceTree = "<group>"; };
@@ -230,6 +252,24 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
+		693543CC243353240040DA55 /* searchDetials */ = {
+			isa = PBXGroup;
+			children = (
+				693543CD243353560040DA55 /* searchGuidDitelesVC.swift */,
+				693543CE243353560040DA55 /* searchGuidDitelesVC.xib */,
+			);
+			path = searchDetials;
+			sourceTree = "<group>";
+		};
+		693543D72433684A0040DA55 /* orderGuide */ = {
+			isa = PBXGroup;
+			children = (
+				693543D3243368300040DA55 /* orderGuidVC.swift */,
+				693543D4243368300040DA55 /* orderGuidVC.xib */,
+			);
+			path = orderGuide;
+			sourceTree = "<group>";
+		};
 		69680C4A241942EE00E144A1 /* My Trips */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +302,7 @@
 			children = (
 				69964ECE2417B01B00974686 /* coustomRoundedButton.swift */,
 				69B9837A24191D00003B5AD7 /* textimage.swift */,
+				693543D12433547E0040DA55 /* coustomRoundedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,6 +366,7 @@
 			children = (
 				69992E53242CC7EC00F99155 /* citiesAPI.swift */,
 				69992E60242CE0F000F99155 /* categoriesAPI.swift */,
+				69F79A8B24321D490025A70B /* searchGuideApi.swift */,
 			);
 			path = "API Service";
 			sourceTree = "<group>";
@@ -333,6 +375,7 @@
 			isa = PBXGroup;
 			children = (
 				69992E51242CC74600F99155 /* cities.swift */,
+				69F79A8924321D080025A70B /* guide.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -395,10 +438,32 @@
 		69E100F52417CE0900684662 /* searchGuid */ = {
 			isa = PBXGroup;
 			children = (
+				693543CC243353240040DA55 /* searchDetials */,
+				69F79A8D2432208F0025A70B /* SearchResults */,
+				693543D72433684A0040DA55 /* orderGuide */,
 				69E100F62417CE3600684662 /* searchGuidVC.swift */,
 				69E100F72417CE3600684662 /* searchGuidVC.xib */,
 			);
 			path = searchGuid;
+			sourceTree = "<group>";
+		};
+		69F79A8D2432208F0025A70B /* SearchResults */ = {
+			isa = PBXGroup;
+			children = (
+				69F79A92243220D30025A70B /* SearchResultsCell */,
+				69F79A8E243220CB0025A70B /* searchResultsVC.swift */,
+				69F79A8F243220CB0025A70B /* searchResultsVC.xib */,
+			);
+			path = SearchResults;
+			sourceTree = "<group>";
+		};
+		69F79A92243220D30025A70B /* SearchResultsCell */ = {
+			isa = PBXGroup;
+			children = (
+				69F79A93243220F00025A70B /* searchResultsCell.swift */,
+				69F79A94243220F00025A70B /* searchResultsCell.xib */,
+			);
+			path = SearchResultsCell;
 			sourceTree = "<group>";
 		};
 		A163BE79C0E5DF0CF4B17CF9 /* Pods */ = {
@@ -479,6 +544,7 @@
 				69964EF52417BA4C00974686 /* SFUIText-Medium.ttf in Resources */,
 				69964EE02417B6CF00974686 /* loginVC.xib in Resources */,
 				69964EF32417BA4B00974686 /* SFUIText-RegularItalic.ttf in Resources */,
+				69F79A91243220CB0025A70B /* searchResultsVC.xib in Resources */,
 				69992E59242CCA3000F99155 /* serachFormVC.xib in Resources */,
 				69E100EA2417C6CA00684662 /* signUpVC.xib in Resources */,
 				69964EF02417BA4B00974686 /* SFUIText-Light.ttf in Resources */,
@@ -487,6 +553,8 @@
 				6908CD1C2417A1C4001754B5 /* Main.storyboard in Resources */,
 				69964EF62417BA4C00974686 /* SFUIText-Semibold.ttf in Resources */,
 				69E100F42417CA9100684662 /* profileVC.xib in Resources */,
+				693543D0243353560040DA55 /* searchGuidDitelesVC.xib in Resources */,
+				69F79A96243220F00025A70B /* searchResultsCell.xib in Resources */,
 				6908CD342417A628001754B5 /* splachCell.xib in Resources */,
 				69680C4E2419430700E144A1 /* myTripsVC.xib in Resources */,
 				69E100EF2417C96B00684662 /* homeVC.xib in Resources */,
@@ -497,6 +565,7 @@
 				69964EF22417BA4B00974686 /* SFUIText-SemiboldItalic.ttf in Resources */,
 				697D70B32419477000CDEE47 /* specialDealsCell.xib in Resources */,
 				6908CD2D2417A590001754B5 /* splchVC.xib in Resources */,
+				693543D6243368300040DA55 /* orderGuidVC.xib in Resources */,
 				69964EEF2417BA4B00974686 /* SFUIText-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,22 +623,29 @@
 				69992E54242CC7EC00F99155 /* citiesAPI.swift in Sources */,
 				6908CD192417A1C4001754B5 /* ViewController.swift in Sources */,
 				6908CD152417A1C4001754B5 /* AppDelegate.swift in Sources */,
+				693543D5243368300040DA55 /* orderGuidVC.swift in Sources */,
 				69680C522419432300E144A1 /* moreVC.swift in Sources */,
 				69680C4D2419430700E144A1 /* myTripsVC.swift in Sources */,
+				693543CF243353560040DA55 /* searchGuidDitelesVC.swift in Sources */,
 				69964EDF2417B6CF00974686 /* loginVC.swift in Sources */,
+				693543D22433547E0040DA55 /* coustomRoundedView.swift in Sources */,
 				69992E5C242CCBFF00F99155 /* formSearchCell.swift in Sources */,
 				69992E58242CCA3000F99155 /* serachFormVC.swift in Sources */,
 				69964ED92417B5EC00974686 /* navSetupHelper.swift in Sources */,
 				697D70B22419477000CDEE47 /* specialDealsCell.swift in Sources */,
+				69F79A90243220CB0025A70B /* searchResultsVC.swift in Sources */,
 				69E100F82417CE3600684662 /* searchGuidVC.swift in Sources */,
+				69F79A8A24321D080025A70B /* guide.swift in Sources */,
 				69964ECF2417B01B00974686 /* coustomRoundedButton.swift in Sources */,
 				69E100F32417CA9100684662 /* profileVC.swift in Sources */,
 				69992E52242CC74600F99155 /* cities.swift in Sources */,
 				6908CD332417A628001754B5 /* splachCell.swift in Sources */,
 				69E100EE2417C96B00684662 /* homeVC.swift in Sources */,
 				6908CD172417A1C4001754B5 /* SceneDelegate.swift in Sources */,
+				69F79A95243220F00025A70B /* searchResultsCell.swift in Sources */,
 				69B9837B24191D00003B5AD7 /* textimage.swift in Sources */,
 				69992E50242CC6C400F99155 /* config.swift in Sources */,
+				69F79A8C24321D490025A70B /* searchGuideApi.swift in Sources */,
 				69992E61242CE0F000F99155 /* categoriesAPI.swift in Sources */,
 				6908CD2C2417A590001754B5 /* splchVC.swift in Sources */,
 				69B9838124192A25003B5AD7 /* searchPackagesVC.swift in Sources */,

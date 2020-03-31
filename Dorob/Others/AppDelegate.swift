@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          IQKeyboardManager.shared.enable = true
         let BarButtonItemAppearance = UIBarButtonItem.appearance()
         BarButtonItemAppearance.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.clear], for: .normal)
-        BarButtonItemAppearance.setBackButtonTitlePositionAdjustment(UIOffset(horizontal: -200, vertical: -5), for:UIBarMetrics.default)
+        BarButtonItemAppearance.setBackButtonTitlePositionAdjustment(UIOffset(horizontal: -200, vertical: -60), for:UIBarMetrics.default)
         //Image Background Navigation Bar
            
         return true

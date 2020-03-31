@@ -19,6 +19,9 @@ class searchGuidVC: UIViewController {
     @IBOutlet weak var viewHight: NSLayoutConstraint!
     @IBOutlet weak var dataView: coustomRoundedButton!
     
+    var singelItemCity: citiesData?
+    var singelItemStates: citiesData?
+    var singelItemLang: citiesData?
     var singelItem: citiesData?
     
     override func viewDidLoad() {
@@ -53,6 +56,15 @@ class searchGuidVC: UIViewController {
         }
     }
     
+    
+    
+    @IBAction func searchBTN(_ sender: Any) {
+        let vc = searchResultsVC(nibName: "searchResultsVC", bundle: nil)
+        vc.singelItemCity = singelItemCity
+        vc.singelItemLang = singelItemLang
+        vc.singelItemStates = singelItemStates
+        self.navigationController!.pushViewController(vc, animated: true)
+    }
     
 }
 
@@ -107,11 +119,14 @@ extension searchGuidVC: searchDeleget{
     func selectedAdrees(city: citiesData,Url: String) {
         singelItem = city
         if Url == URLs.cities {
+            singelItemCity = city
             self.country.text = singelItem?.name ?? ""
             self.city.text = ""
         }else if Url == URLs.states {
+            singelItemStates = city
             self.city.text = singelItem?.name ?? ""
         }else if Url == URLs.languages {
+            singelItemLang = city
             self.lange.text = singelItem?.name ?? ""
         }
     }

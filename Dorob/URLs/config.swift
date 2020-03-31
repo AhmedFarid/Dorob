@@ -18,11 +18,5 @@ struct URLs {
     static let categories = main + "categories"
     static let states = main + "states"
     static let languages = main + "languages"
-    
-    
-    
-    
-    
-    
-    
+    static let searchGuide = main + "search_guide"
 }
