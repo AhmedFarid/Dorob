@@ -10,7 +10,7 @@ import UIKit
 import NVActivityIndicatorView
 
 class searchPackagesResultVC: UIViewController, NVActivityIndicatorViewable {
-
+    
     @IBOutlet weak var collectionView: UICollectionView!
     
     var priceID = 0
@@ -26,16 +26,16 @@ class searchPackagesResultVC: UIViewController, NVActivityIndicatorViewable {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(UINib(nibName: "searchPackagesResultCell", bundle: nil), forCellWithReuseIdentifier: "cell")
-
+        
         
         
         guideHandelRefresh()
     }
-
-
-  func guideHandelRefresh(){
+    
+    
+    func guideHandelRefresh(){
         startAnimating(CGSize(width: 45, height: 45), message: "Loading",type: .ballSpinFadeLoader, color: .red, textColor: .white)
-    packagesAPI.allPackages(price_tour_only: priceID, category_id: singelItemCategory?.id ?? 0, city_id: singelItemCity?.id ?? 0){ (error,networkSuccess,codeSucess,package) in
+        packagesAPI.allPackages(price_tour_only: priceID, category_id: singelItemCategory?.id ?? 0, city_id: singelItemCity?.id ?? 0){ (error,networkSuccess,codeSucess,package) in
             if networkSuccess {
                 if codeSucess {
                     if package?.success == true {
@@ -62,7 +62,7 @@ class searchPackagesResultVC: UIViewController, NVActivityIndicatorViewable {
             }
         }
     }
-
+    
 }
 
 
@@ -78,6 +78,7 @@ extension searchPackagesResultVC: UICollectionViewDelegate, UICollectionViewData
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? searchPackagesResultCell {
             cell.configuerCell(package: package[indexPath.row])
+            cell.city.text = singelItemCity?.name
             return cell
         }else {
             return searchPackagesResultCell()
@@ -87,4 +88,17 @@ extension searchPackagesResultVC: UICollectionViewDelegate, UICollectionViewData
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
         return CGSize(width: collectionView.frame.size.width, height: collectionView.frame.size.height / 3)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("xxx")
+        let vc = searchPackagesResultDetialsVC(nibName: "searchPackagesResultDetialsVC", bundle: nil)
+        vc.singitem = package[indexPath.row]
+        vc.images = package[indexPath.row].packgeImages ?? []
+        vc.itinera = package[indexPath.row].itineraries ?? []
+        self.navigationController!.pushViewController(vc, animated: true)
+    }
+    
+//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//        print("xxxxx")
+//    }
 }

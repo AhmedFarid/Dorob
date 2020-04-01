@@ -118,4 +118,8 @@ extension homeVC: UICollectionViewDelegate, UICollectionViewDataSource,UICollect
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
         return CGSize(width: specialDealsCollection.frame.size.width / 1.08, height: specialDealsCollection.frame.size.height)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("xxxxx")
+    }
 }

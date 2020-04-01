@@ -15,6 +15,12 @@ class searchPackagesResultCell: UICollectionViewCell {
     @IBOutlet weak var city: UILabel!
     
     
+    override func awakeFromNib() {
+        self.layer.cornerRadius = 8
+        self.layer.borderColor = #colorLiteral(red: 0.7450980392, green: 0.7450980392, blue: 0.7450980392, alpha: 1)
+        self.layer.borderWidth = 0.5
+    }
+    
     func configuerCell(package: packagesData) {
         name.text = package.title
         let urlWithoutEncoding = (package.image)

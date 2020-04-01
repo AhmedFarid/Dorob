@@ -18,6 +18,13 @@
 		6908CD2D2417A590001754B5 /* splchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6908CD2B2417A590001754B5 /* splchVC.xib */; };
 		6908CD332417A628001754B5 /* splachCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6908CD312417A628001754B5 /* splachCell.swift */; };
 		6908CD342417A628001754B5 /* splachCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6908CD322417A628001754B5 /* splachCell.xib */; };
+		690FAE9B2434AB30000B1E55 /* searchPackagesResultDetialsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FAE992434AB30000B1E55 /* searchPackagesResultDetialsVC.swift */; };
+		690FAE9C2434AB30000B1E55 /* searchPackagesResultDetialsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690FAE9A2434AB30000B1E55 /* searchPackagesResultDetialsVC.xib */; };
+		690FAEA12434B1BD000B1E55 /* packagesResultDetialsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FAE9F2434B1BD000B1E55 /* packagesResultDetialsCell.swift */; };
+		690FAEA22434B1BD000B1E55 /* packagesResultDetialsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690FAEA02434B1BD000B1E55 /* packagesResultDetialsCell.xib */; };
+		690FAEA42434C09E000B1E55 /* htmToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FAEA32434C09E000B1E55 /* htmToString.swift */; };
+		690FAEAD2434DE04000B1E55 /* itinerariesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FAEAB2434DE04000B1E55 /* itinerariesCell.swift */; };
+		690FAEAE2434DE04000B1E55 /* itinerariesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690FAEAC2434DE04000B1E55 /* itinerariesCell.xib */; };
 		693543CF243353560040DA55 /* searchGuidDitelesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543CD243353560040DA55 /* searchGuidDitelesVC.swift */; };
 		693543D0243353560040DA55 /* searchGuidDitelesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693543CE243353560040DA55 /* searchGuidDitelesVC.xib */; };
 		693543D22433547E0040DA55 /* coustomRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543D12433547E0040DA55 /* coustomRoundedView.swift */; };
@@ -30,6 +37,8 @@
 		693543E22433A0AE0040DA55 /* searchPackagesResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693543E02433A0AE0040DA55 /* searchPackagesResultVC.xib */; };
 		693543E62433A0FA0040DA55 /* searchPackagesResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693543E42433A0FA0040DA55 /* searchPackagesResultCell.swift */; };
 		693543E72433A0FA0040DA55 /* searchPackagesResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693543E52433A0FA0040DA55 /* searchPackagesResultCell.xib */; };
+		694EA2D02434E4F000C1EA31 /* itinereCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694EA2CE2434E4F000C1EA31 /* itinereCell.swift */; };
+		694EA2D12434E4F000C1EA31 /* itinereCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 694EA2CF2434E4F000C1EA31 /* itinereCell.xib */; };
 		69680C4D2419430700E144A1 /* myTripsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69680C4B2419430700E144A1 /* myTripsVC.swift */; };
 		69680C4E2419430700E144A1 /* myTripsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69680C4C2419430700E144A1 /* myTripsVC.xib */; };
 		69680C522419432300E144A1 /* moreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69680C502419432300E144A1 /* moreVC.swift */; };
@@ -92,6 +101,13 @@
 		6908CD2B2417A590001754B5 /* splchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = splchVC.xib; sourceTree = "<group>"; };
 		6908CD312417A628001754B5 /* splachCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splachCell.swift; sourceTree = "<group>"; };
 		6908CD322417A628001754B5 /* splachCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = splachCell.xib; sourceTree = "<group>"; };
+		690FAE992434AB30000B1E55 /* searchPackagesResultDetialsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPackagesResultDetialsVC.swift; sourceTree = "<group>"; };
+		690FAE9A2434AB30000B1E55 /* searchPackagesResultDetialsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchPackagesResultDetialsVC.xib; sourceTree = "<group>"; };
+		690FAE9F2434B1BD000B1E55 /* packagesResultDetialsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = packagesResultDetialsCell.swift; sourceTree = "<group>"; };
+		690FAEA02434B1BD000B1E55 /* packagesResultDetialsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = packagesResultDetialsCell.xib; sourceTree = "<group>"; };
+		690FAEA32434C09E000B1E55 /* htmToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = htmToString.swift; sourceTree = "<group>"; };
+		690FAEAB2434DE04000B1E55 /* itinerariesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itinerariesCell.swift; sourceTree = "<group>"; };
+		690FAEAC2434DE04000B1E55 /* itinerariesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itinerariesCell.xib; sourceTree = "<group>"; };
 		693543CD243353560040DA55 /* searchGuidDitelesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchGuidDitelesVC.swift; sourceTree = "<group>"; };
 		693543CE243353560040DA55 /* searchGuidDitelesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchGuidDitelesVC.xib; sourceTree = "<group>"; };
 		693543D12433547E0040DA55 /* coustomRoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coustomRoundedView.swift; sourceTree = "<group>"; };
@@ -104,6 +120,8 @@
 		693543E02433A0AE0040DA55 /* searchPackagesResultVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchPackagesResultVC.xib; sourceTree = "<group>"; };
 		693543E42433A0FA0040DA55 /* searchPackagesResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPackagesResultCell.swift; sourceTree = "<group>"; };
 		693543E52433A0FA0040DA55 /* searchPackagesResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchPackagesResultCell.xib; sourceTree = "<group>"; };
+		694EA2CE2434E4F000C1EA31 /* itinereCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itinereCell.swift; sourceTree = "<group>"; };
+		694EA2CF2434E4F000C1EA31 /* itinereCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itinereCell.xib; sourceTree = "<group>"; };
 		69680C4B2419430700E144A1 /* myTripsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTripsVC.swift; sourceTree = "<group>"; };
 		69680C4C2419430700E144A1 /* myTripsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myTripsVC.xib; sourceTree = "<group>"; };
 		69680C502419432300E144A1 /* moreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreVC.swift; sourceTree = "<group>"; };
@@ -266,6 +284,36 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
+		690FAE9D2434AB37000B1E55 /* PackagesResultDetials */ = {
+			isa = PBXGroup;
+			children = (
+				694EA2CD2434E4D800C1EA31 /* itinerarie */,
+				690FAEAA2434DDB6000B1E55 /* itinerarieCell */,
+				690FAE9E2434B18B000B1E55 /* packagesResultDetialsCell */,
+				690FAE992434AB30000B1E55 /* searchPackagesResultDetialsVC.swift */,
+				690FAE9A2434AB30000B1E55 /* searchPackagesResultDetialsVC.xib */,
+			);
+			path = PackagesResultDetials;
+			sourceTree = "<group>";
+		};
+		690FAE9E2434B18B000B1E55 /* packagesResultDetialsCell */ = {
+			isa = PBXGroup;
+			children = (
+				690FAE9F2434B1BD000B1E55 /* packagesResultDetialsCell.swift */,
+				690FAEA02434B1BD000B1E55 /* packagesResultDetialsCell.xib */,
+			);
+			path = packagesResultDetialsCell;
+			sourceTree = "<group>";
+		};
+		690FAEAA2434DDB6000B1E55 /* itinerarieCell */ = {
+			isa = PBXGroup;
+			children = (
+				690FAEAB2434DE04000B1E55 /* itinerariesCell.swift */,
+				690FAEAC2434DE04000B1E55 /* itinerariesCell.xib */,
+			);
+			path = itinerarieCell;
+			sourceTree = "<group>";
+		};
 		693543CC243353240040DA55 /* searchDetials */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +349,15 @@
 				693543E52433A0FA0040DA55 /* searchPackagesResultCell.xib */,
 			);
 			path = searchPackagesResultCell;
+			sourceTree = "<group>";
+		};
+		694EA2CD2434E4D800C1EA31 /* itinerarie */ = {
+			isa = PBXGroup;
+			children = (
+				694EA2CE2434E4F000C1EA31 /* itinereCell.swift */,
+				694EA2CF2434E4F000C1EA31 /* itinereCell.xib */,
+			);
+			path = itinerarie;
 			sourceTree = "<group>";
 		};
 		69680C4A241942EE00E144A1 /* My Trips */ = {
@@ -363,6 +420,7 @@
 			isa = PBXGroup;
 			children = (
 				69964ED82417B5EC00974686 /* navSetupHelper.swift */,
+				690FAEA32434C09E000B1E55 /* htmToString.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -447,6 +505,7 @@
 			isa = PBXGroup;
 			children = (
 				693543DE2433A07C0040DA55 /* searchPackagesResult */,
+				690FAE9D2434AB37000B1E55 /* PackagesResultDetials */,
 				69B9837F24192A25003B5AD7 /* searchPackagesVC.swift */,
 				69B9838024192A25003B5AD7 /* searchPackagesVC.xib */,
 			);
@@ -578,6 +637,8 @@
 				69964EED2417BA4B00974686 /* SFUIText-BoldItalic.ttf in Resources */,
 				69964EEE2417BA4B00974686 /* SFUIText-Regular.ttf in Resources */,
 				69964EF72417BA4C00974686 /* SFUIText-HeavyItalic.ttf in Resources */,
+				694EA2D12434E4F000C1EA31 /* itinereCell.xib in Resources */,
+				690FAEA22434B1BD000B1E55 /* packagesResultDetialsCell.xib in Resources */,
 				69964EF52417BA4C00974686 /* SFUIText-Medium.ttf in Resources */,
 				69964EE02417B6CF00974686 /* loginVC.xib in Resources */,
 				69964EF32417BA4B00974686 /* SFUIText-RegularItalic.ttf in Resources */,
@@ -604,8 +665,10 @@
 				69964EF22417BA4B00974686 /* SFUIText-SemiboldItalic.ttf in Resources */,
 				697D70B32419477000CDEE47 /* specialDealsCell.xib in Resources */,
 				6908CD2D2417A590001754B5 /* splchVC.xib in Resources */,
+				690FAE9C2434AB30000B1E55 /* searchPackagesResultDetialsVC.xib in Resources */,
 				693543D6243368300040DA55 /* orderGuidVC.xib in Resources */,
 				69964EEF2417BA4B00974686 /* SFUIText-Bold.ttf in Resources */,
+				690FAEAE2434DE04000B1E55 /* itinerariesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,9 +723,11 @@
 			files = (
 				69E100E92417C6CA00684662 /* signUpVC.swift in Sources */,
 				69992E54242CC7EC00F99155 /* citiesAPI.swift in Sources */,
+				690FAEA12434B1BD000B1E55 /* packagesResultDetialsCell.swift in Sources */,
 				6908CD192417A1C4001754B5 /* ViewController.swift in Sources */,
 				6908CD152417A1C4001754B5 /* AppDelegate.swift in Sources */,
 				693543E12433A0AE0040DA55 /* searchPackagesResultVC.swift in Sources */,
+				690FAEAD2434DE04000B1E55 /* itinerariesCell.swift in Sources */,
 				693543D5243368300040DA55 /* orderGuidVC.swift in Sources */,
 				69680C522419432300E144A1 /* moreVC.swift in Sources */,
 				69680C4D2419430700E144A1 /* myTripsVC.swift in Sources */,
@@ -676,6 +741,7 @@
 				69964ED92417B5EC00974686 /* navSetupHelper.swift in Sources */,
 				697D70B22419477000CDEE47 /* specialDealsCell.swift in Sources */,
 				69F79A90243220CB0025A70B /* searchResultsVC.swift in Sources */,
+				694EA2D02434E4F000C1EA31 /* itinereCell.swift in Sources */,
 				69E100F82417CE3600684662 /* searchGuidVC.swift in Sources */,
 				69F79A8A24321D080025A70B /* guide.swift in Sources */,
 				69964ECF2417B01B00974686 /* coustomRoundedButton.swift in Sources */,
@@ -684,9 +750,11 @@
 				6908CD332417A628001754B5 /* splachCell.swift in Sources */,
 				693543D924337E1D0040DA55 /* message.swift in Sources */,
 				69E100EE2417C96B00684662 /* homeVC.swift in Sources */,
+				690FAEA42434C09E000B1E55 /* htmToString.swift in Sources */,
 				6908CD172417A1C4001754B5 /* SceneDelegate.swift in Sources */,
 				693543E62433A0FA0040DA55 /* searchPackagesResultCell.swift in Sources */,
 				69F79A95243220F00025A70B /* searchResultsCell.swift in Sources */,
+				690FAE9B2434AB30000B1E55 /* searchPackagesResultDetialsVC.swift in Sources */,
 				69B9837B24191D00003B5AD7 /* textimage.swift in Sources */,
 				69992E50242CC6C400F99155 /* config.swift in Sources */,
 				69F79A8C24321D490025A70B /* searchGuideApi.swift in Sources */,
